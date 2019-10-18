@@ -7,7 +7,7 @@ Configuração do Vagrant (com provisionamento em Shell Script) para criar uma m
 
 ### Pacotes Inclusos:
 
-- PHP 7.1
+- PHP 7.2
 - MySQL 5.5
 - Git
 - PhpMyAdmin 

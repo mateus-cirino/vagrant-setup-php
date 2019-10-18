@@ -37,12 +37,12 @@ echo "--- Instalando MySQL, Phpmyadmin e alguns outros modulos ---"
 sudo apt-get install mysql-server-5.5 mysql-client phpmyadmin --assume-yes --force-yes
 
 echo "--- Instalando PHP, Apache e alguns modulos ---"
-sudo apt-get install php7.1 php7.1-common --assume-yes --force-yes
-sudo apt-get install php7.1-cli libapache2-mod-php7.1 php7.1-mysql php7.1-curl php-memcached php7.1-dev php7.1-mcrypt php7.1-sqlite3 php7.1-mbstring php*-mysql  php-gd php-xml php-mbstring  zip unzip --assume-yes --force-yes
+sudo apt-get install php7.2 php7.2-common --assume-yes --force-yes
+sudo apt-get install php7.2-cli libapache2-mod-php7.2 php7.2-mysql php7.2-curl php-memcached php7.2-dev php7.2-mcrypt php7.2-sqlite3 php7.2-mbstring php*-mysql  php-gd php-xml php-mbstring  zip unzip --assume-yes --force-yes
 
-echo "--- Habilitando o PHP 7.1 ---"
+echo "--- Habilitando o PHP 7.2 ---"
 sudo a2dismod php5
-sudo a2enmod php7.1
+sudo a2enmod php7.2
 
 echo "--- Habilitando mod-rewrite do Apache ---"
 sudo a2enmod rewrite
